@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="board">
+        <div class="lives">
+            <img src="full_heart.png" id="life1">
+            <img src="full_heart.png" id="life2">
+            <img src="full_heart.png" id="life3">
+        </div>
+        <div class="score">
+            0
+        </div>
+        <div id="overlay">
+        </div>
+        <div id="popup">
+            <h1>You lost!</h1>
+            <p id="score_result">heyllo</p>
+            <button id="reset_btn" onclick="game(3)">Play again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
